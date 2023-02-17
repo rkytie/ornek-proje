@@ -1,0 +1,40 @@
+.prewrap {
+    white-space: pre-wrap;
+}
+
+.note-card {
+    min-height: 7rem;
+}
+
+.note-card .fa {
+    font-size: 27px;
+}
+
+#loading {
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    opacity: 0.7;
+    background-color: #fff;
+    z-index: 99;
+}
+
+#loading-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+
+.loading-sidebar {
+    opacity: 0.2;
+}
+
+#sidebar-menu {
+    min-height: 87.5vh;
+}

@@ -1,0 +1,33 @@
+[06-Jan-2023 13:42:53 UTC] PHP Warning:  A non-numeric value encountered in /home/iccwus/public_html/wp-content/plugins/presserly-random-timed-quiz/content/content.php on line 99
+[06-Jan-2023 13:42:53 UTC] PHP Warning:  A non-numeric value encountered in /home/iccwus/public_html/wp-content/plugins/presserly-random-timed-quiz/content/content.php on line 99
+[11-Jan-2023 10:00:09 UTC] PHP Warning:  A non-numeric value encountered in /home/iccwus/public_html/wp-content/plugins/presserly-random-timed-quiz/content/content.php on line 99
+[11-Jan-2023 10:00:09 UTC] PHP Warning:  A non-numeric value encountered in /home/iccwus/public_html/wp-content/plugins/presserly-random-timed-quiz/content/content.php on line 99
+[13-Jan-2023 01:41:26 UTC] PHP Warning:  A non-numeric value encountered in /home/iccwus/public_html/wp-content/plugins/presserly-random-timed-quiz/content/content.php on line 99
+[13-Jan-2023 01:41:26 UTC] PHP Warning:  A non-numeric value encountered in /home/iccwus/public_html/wp-content/plugins/presserly-random-timed-quiz/content/content.php on line 99
+[15-Jan-2023 10:30:05 UTC] shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, AIOSEO\Plugin\Common\Utils\Filter->flagDeprecated, AIOSEO\Plugin\Common\Models\Notification::getNotificationByName, AIOSEO\Plugin\Common\Utils\Database->run tarafından oluşturulan SELECT 
+	*
+FROM wp_aioseo_notifications
+WHERE 1 = 1 AND
+	`notification_name` = 'deprecated-filters'
+/* 1 = 1 */ sorgusu için WordPress veritabanı hatası Commands out of sync; you can't run this command now
+[15-Jan-2023 10:30:05 UTC] shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, AIOSEO\Plugin\Common\Utils\Filter->flagDeprecated, AIOSEO\Plugin\Common\Models\Notification::getNotificationByName, AIOSEO\Plugin\Common\Utils\Database->model, AIOSEO\Plugin\Common\Models\Model->__construct, AIOSEO\Plugin\Common\Models\Model->getColumns, AIOSEO\Plugin\Common\Utils\Database->execute tarafından oluşturulan SHOW COLUMNS FROM `wp_aioseo_notifications` sorgusu için WordPress veritabanı hatası Commands out of sync; you can't run this command now
+[15-Jan-2023 10:30:05 UTC] shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, AIOSEO\Plugin\Common\Utils\Filter->flagDeprecated, AIOSEO\Plugin\Common\Models\Notification::getNotificationByName, AIOSEO\Plugin\Common\Utils\Database->run tarafından oluşturulan SELECT 
+	*
+FROM wp_aioseo_notifications
+WHERE 1 = 1 AND
+	`notification_name` = 'deprecated-filters-v2'
+/* 1 = 1 */ sorgusu için WordPress veritabanı hatası Commands out of sync; you can't run this command now
+[15-Jan-2023 10:30:05 UTC] shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, AIOSEO\Plugin\Common\Utils\Filter->flagDeprecated, AIOSEO\Plugin\Common\Models\Notification::getNotificationByName, AIOSEO\Plugin\Common\Utils\Database->model, AIOSEO\Plugin\Common\Models\Model->__construct, AIOSEO\Plugin\Common\Models\Model->getColumns, AIOSEO\Plugin\Common\Utils\Database->execute tarafından oluşturulan SHOW COLUMNS FROM `wp_aioseo_notifications` sorgusu için WordPress veritabanı hatası Commands out of sync; you can't run this command now
+[17-Jan-2023 12:02:09 UTC] PHP Warning:  A non-numeric value encountered in /home/iccwus/public_html/wp-content/plugins/presserly-random-timed-quiz/content/content.php on line 99
+[17-Jan-2023 12:02:09 UTC] PHP Warning:  A non-numeric value encountered in /home/iccwus/public_html/wp-content/plugins/presserly-random-timed-quiz/content/content.php on line 99
+[19-Jan-2023 17:27:51 UTC] PHP Warning:  A non-numeric value encountered in /home/iccwus/public_html/wp-content/plugins/presserly-random-timed-quiz/content/content.php on line 99
+[19-Jan-2023 17:27:51 UTC] PHP Warning:  A non-numeric value encountered in /home/iccwus/public_html/wp-content/plugins/presserly-random-timed-quiz/content/content.php on line 99
+[20-Jan-2023 18:19:02 UTC] PHP Warning:  A non-numeric value encountered in /home/iccwus/public_html/wp-content/plugins/presserly-random-timed-quiz/content/content.php on line 99
+[20-Jan-2023 18:19:02 UTC] PHP Warning:  A non-numeric value encountered in /home/iccwus/public_html/wp-content/plugins/presserly-random-timed-quiz/content/content.php on line 99
+[24-Jan-2023 12:50:57 UTC] PHP Warning:  Error while sending QUERY packet. PID=1476840 in /home/iccwus/public_html/wp-includes/wp-db.php on line 2162
+[25-Jan-2023 04:52:52 UTC] PHP Warning:  A non-numeric value encountered in /home/iccwus/public_html/wp-content/plugins/presserly-random-timed-quiz/content/content.php on line 99
+[25-Jan-2023 04:52:52 UTC] PHP Warning:  A non-numeric value encountered in /home/iccwus/public_html/wp-content/plugins/presserly-random-timed-quiz/content/content.php on line 99
+[30-Jan-2023 12:01:55 UTC] PHP Warning:  A non-numeric value encountered in /home/iccwus/public_html/wp-content/plugins/presserly-random-timed-quiz/content/content.php on line 99
+[30-Jan-2023 12:01:55 UTC] PHP Warning:  A non-numeric value encountered in /home/iccwus/public_html/wp-content/plugins/presserly-random-timed-quiz/content/content.php on line 99
+[30-Jan-2023 18:06:53 UTC] PHP Warning:  A non-numeric value encountered in /home/iccwus/public_html/wp-content/plugins/presserly-random-timed-quiz/content/content.php on line 99
+[30-Jan-2023 18:06:53 UTC] PHP Warning:  A non-numeric value encountered in /home/iccwus/public_html/wp-content/plugins/presserly-random-timed-quiz/content/content.php on line 99

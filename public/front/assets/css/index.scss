@@ -1,0 +1,208 @@
+.hero-slider {
+  .slider-item {
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.brands {
+  margin: 2rem 0;
+
+  .item {
+    &.slick-active {
+      display: flex !important;
+    }
+    flex-direction: column;
+    align-items: center;
+    img {
+      border: 1px solid #e6e6e6;
+      border-radius: 50%;
+      box-sizing: border-box;
+      display: block;
+      width: 68px;
+      height: 68px;
+      margin: 0;
+      transition: all ease 0.2s;
+    }
+    span {
+      display: block;
+      font-size: 14px;
+      margin-top: 10px;
+      color: var(--black);
+      transition: all ease 0.2s;
+      line-height: 20px;
+      height: 42px;
+      font-weight: 600;
+      text-align: center;
+    }
+    &:hover {
+      cursor: pointer;
+      img {
+        border-color: var(--primary);
+      }
+      span {
+        color: var(--primary);
+      }
+    }
+  }
+}
+
+.campaign {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    @media screen and (max-width: 850px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media screen and (max-width: 560px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      &:hover {
+        cursor: pointer;
+      }
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.categories {
+  margin: 2rem 0;
+  @media screen and (max-width: 850px) {
+    margin: 1rem 0;
+  }
+  .container {
+    .item {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      img {
+        width: 100%;
+      }
+      span {
+        display: block;
+        margin-top: 10px;
+        color: var(--black);
+        transition: all ease 0.2s;
+        line-height: 14px;
+        height: 42px;
+        font-weight: 600;
+      }
+      &:hover {
+        cursor: pointer;
+        span {
+          color: var(--primary);
+        }
+      }
+    }
+  }
+}
+
+.discount {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    @media screen and (max-width: 850px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media screen and (max-width: 560px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-shadow: 0 0 7px #d3d3d3;
+      display: block;
+      border-radius: 6px;
+      overflow: hidden;
+      &:hover {
+        cursor: pointer;
+      }
+      & > img {
+        width: 100%;
+        overflow: hidden;
+        box-sizing: border-box;
+        display: block;
+        position: relative;
+        border: 1px solid #d3d3d3;
+        border-radius: 6px 6px 0 0;
+      }
+      .campaign-summary {
+        background: #1b1b1b;
+        color: #fff;
+        height: 38px;
+        line-height: 38px;
+        padding: 0 17px;
+        font-size: 14px;
+        display: flex;
+        overflow: hidden;
+        transition: background 300ms ease;
+        .name {
+          width: 50%;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+          line-height: 38px;
+          font-size: 14px;
+        }
+        .hover-text {
+          display: none;
+          justify-content: flex-end;
+          align-items: center;
+          width: 50%;
+          text-align: right;
+          font-size: 14px;
+          svg {
+            margin-left: 0.4rem;
+            height: 12px;
+            width: 12px;
+            fill: var(--primary);
+          }
+        }
+      }
+      &:hover {
+        img {
+          border-color: var(--primary);
+        }
+        .campaign-summary {
+          background: var(--primary);
+          border-color: var(--primary);
+          .hover-text {
+            display: flex;
+            svg {
+              fill: var(--white);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.product {
+  margin: 2rem 0 4rem;
+  @media screen and (max-width: 850px) {
+    margin: 0 0 3rem;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 1rem;
+    @media screen and (max-width: 850px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    @media screen and (max-width: 560px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}

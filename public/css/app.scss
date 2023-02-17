@@ -1,0 +1,110 @@
+$cardBackground: rgba(200, 200, 200, 0.02);
+
+$buttonDefault: #525f7f;
+$buttonDetail: #172b4d;
+$buttonNavigate: #32a852;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+.container-card-orders {
+  justify-content: center;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  justify-content: center;
+  padding: 5px;
+  margin: auto;
+}
+
+.delivery-order-card {
+  background-color: $cardBackground;
+  margin: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(73, 73, 73, 0.4);
+  border-radius: 12px;
+  padding: 1.3em;
+  box-shadow: 10px -2px 66px 4px rgba(0, 0, 0, 0.24);
+  font-family: "Lato", sans-serif;
+
+  .order-primary-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid rgba(73, 73, 73, 0.12);
+    font-size: 17px;
+  }
+
+  .order-info {
+    display: flex;
+    flex-direction: column;
+
+    .order-info-row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 0.5em;
+    }
+  }
+
+  .order-footer {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: 1px solid rgba(73, 73, 73, 0.12);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    .card-order-btn {
+      font-size: 14px;
+      font-weight: 700;
+      text-decoration: none;
+      position: relative;
+      padding: 0.8em;
+      border-radius: 12px;
+      color: #fff;
+      background-color: $buttonDefault;
+      border: 1px solid $buttonDefault;
+      cursor: pointer;
+      box-shadow: 10px -2px 66px 4px rgba(0, 0, 0, 0.24);
+
+      &:hover {
+        top: -1px;
+        background-color: darken($buttonDefault, 10%);
+        border: 1px solid darken($buttonDefault, 10%);
+      }
+    }
+
+    .card-order-btn-details {
+      background-color: $buttonDetail;
+      border: 1px solid $buttonDetail;
+
+      &:hover {
+        background-color: darken($buttonDetail, 10%);
+        border: 1px solid darken($buttonDetail, 10%);
+      }
+    }
+
+    .card-order-btn-navigate {
+      background-color: $buttonNavigate;
+      border: 1px solid $buttonNavigate;
+
+      &:hover {
+        background-color: darken($buttonNavigate, 10%);
+        border: 1px solid darken($buttonNavigate, 10%);
+      }
+    }
+  }
+}
